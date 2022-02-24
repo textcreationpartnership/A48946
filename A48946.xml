@@ -1,0 +1,413 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An essay towards an universal alphabet</title>
+            <author>Lodowyck, Francis.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1686</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 14 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A48946</idno>
+            <idno type="STC">Wing L2815</idno>
+            <idno type="STC">ESTC R221773</idno>
+            <idno type="EEBO-CITATION">99833030</idno>
+            <idno type="PROQUEST">99833030</idno>
+            <idno type="VID">37505</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A48946)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 37505)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2190:03)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An essay towards an universal alphabet</title>
+                  <author>Lodowyck, Francis.</author>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1686]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed by Wing to Francis Lodowyck.</note>
+                  <note>Caption title.</note>
+                  <note>Imprint from Wing.</note>
+                  <note>Copy stained; with print show-through.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>English language --  Etymology --  Early works to 1800.</term>
+               <term>Alphabets --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-02</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="essay">
+            <pb n="1" facs="tcp:37505:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 16 -->
+            <head>An ESSAY Towards An UNIVERSAL ALPHABET.</head>
+            <p>HAving obſerved a great difficulty in truly writing what is pronounced, or truly pronouncing what is written, either in our own or foraign Languages, by the Ordinary Alphabets now in uſe, ariſing either from the want of ſome Letters, or the differing Pronounciation of the ſame Chara<g ref="char:EOLhyphen"/>cter or Letter in differing Languages, and the irregularities of its various Sounds in any one Language, I ſaw a neceſſity of ſome ſuch ex<g ref="char:EOLhyphen"/>pedient as I have here attempted, <hi>Viz. An <g ref="char:V">Ʋ</g>ni<g ref="char:EOLhyphen"/>verſal Alphabet,</hi> which ſhould contain an Ennu<g ref="char:EOLhyphen"/>meration of all ſuch ſingle Sounds or Letters as are uſed in any Language, which I have en<g ref="char:EOLhyphen"/>deavoured by Examining all thoſe Languages, which hitherto I have conſidered: Altho this my attempt be not new, but what before by o<g ref="char:EOLhyphen"/>thers hath been attempted, yet I hope what herein I have done will not be unuſeful.</p>
+            <p>The Benefits of ſuch a Collection being perfect.</p>
+            <p n="1">1. Children from their firſt beginning, be<g ref="char:EOLhyphen"/>ing
+<pb n="2" facs="tcp:37505:2"/>
+               <!-- PDF PAGE 17 -->
+taught and accuſtomed to the true Expreſ<g ref="char:EOLhyphen"/>ſion of all theſe ſingle Sounds or Letters, will without difficulty be brought to pronounce truly and readily any Language how ſeeming<g ref="char:EOLhyphen"/>ly difficult ſoever; for the pretended difficulty to ſome Perſons of Pronouncing ſome Letters, is only that they have not been accuſtomed to pronounce them, either ſingly or in conjunction with others, and this difficulty is chiefly in Per<g ref="char:EOLhyphen"/>ſons come to Age.</p>
+            <p n="2">2. It will enable any one, accuſtomed to the true Pronounciation of this Alphabet, truly to deſcribe the Pronounciation of any Language whatever, that ſhall in his hearing be diſtinctly pronounced; ſo as another alſo accuſtomed to this Alphabet, although he before never had heard this Language pronounced, ſhall not<g ref="char:EOLhyphen"/>withſtanding at firſt ſight of ſuch Writing, be able ſo truly to pronounce it, that it ſhall (if at all) very little differ from the Original Pronoun<g ref="char:EOLhyphen"/>ciation. Whereas by the uſe of the common Alphabets, if any ſtrange Language be written, another, and a ſtranger to that Language, ſhall never be able truly to pronounce ſuch Writing, as it ſhould be or was by the Writer intended, nor even the Writer himſelf ſometime after that he hath forgotten what Sound he deſigned to deſcribe.</p>
+            <p n="3">3. It will alſo be uſeful to perpetuate the true Sounds of any Language, and ſerve as a Stan<g ref="char:EOLhyphen"/>dard
+<pb n="3" facs="tcp:37505:2" rendition="simple:additions"/>
+               <!-- PDF PAGE 17 -->
+thereof to after Ages: for if all the ſingle Sounds expreſſable, be here Collected and Characterized, <hi>And that no one Character have more than one Sound, nor any one Sound be expreſſed by more than one Character;</hi> it cannot fall out that any Character ſhould be falſly pronounced, but it will ſoon be diſcovered; for this falſe Sound he giveth it, muſt be the true Sound of ſome other Letter of this Alphabet: and ſo none can Erre herein, but he that wilfully or careleſly will do it.</p>
+            <p>
+               <hi>In this Collection I proceed according to theſe Rules.</hi>
+            </p>
+            <p n="1">1. THat no true ſingle Sound can be truly deſcribed or expreſſed by the Conjun<g ref="char:EOLhyphen"/>ction of any two or more other ſingle Sounds, <hi>Viz</hi> If a Vowel, by the Conjunction of o<g ref="char:EOLhyphen"/>ther ſingle Vowels, or if a Conſonant, by the Con<g ref="char:EOLhyphen"/>junction of other ſingle Conſonants.</p>
+            <p n="2">2. That whatever Sound cannot be expreſſed or deſcribed, but by the Conjunction of two or more ſingle Sounds, is no ſingle but a com<g ref="char:EOLhyphen"/>pounded Sound.</p>
+            <p n="3">3 That in every compoſition of ſingle Sounds, the particular ſingle Sounds which make up that Compoſition, ought to be truly and clearly di<g ref="char:EOLhyphen"/>ſcerned in the Sound of the Compoſition, other<g ref="char:EOLhyphen"/>wiſe it cannot be truly ſaid to be a Compoſiti<g ref="char:EOLhyphen"/>on, and compoſed of ſuch ſingle Sounds.</p>
+            <div type="part">
+               <pb n="4" facs="tcp:37505:3" rendition="simple:additions"/>
+               <!-- PDF PAGE 18 -->
+               <head>The Single Sounds</head>
+               <p>USually named Letters, are commonly di<g ref="char:EOLhyphen"/>ſtinguiſhed into <hi>Vowels</hi> and <hi>Conſonants. Vowels</hi> are ſuch as are ſingly expreſſable: as, <hi>a, e, o, &amp;c. Conſonants</hi> are ſuch as cannot ſingly be expreſſed without the Conjunction of a Vowel, as, <hi>b, d, f, g,</hi> &amp;c.</p>
+               <div type="section">
+                  <head>Of Vowels</head>
+                  <p>THe whole number of them are theſe 14 following, to which, for the better di<g ref="char:EOLhyphen"/>ſcerning of their Sounds, I have annexed ſo ma<g ref="char:EOLhyphen"/>ny words wherein they are expreſſed, all <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi> but three, <hi>Viz.</hi> the 7, 8, 12, becauſe no <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi> words occurred to my <hi>memory,</hi> wherein they are expreſt.</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>1</cell>
+                           <cell>a</cell>
+                           <cell>as tall</cell>
+                        </row>
+                        <row>
+                           <cell>2</cell>
+                           <cell>a</cell>
+                           <cell>tallow</cell>
+                        </row>
+                        <row>
+                           <cell>3</cell>
+                           <cell>a</cell>
+                           <cell>tale</cell>
+                        </row>
+                        <row>
+                           <cell>4</cell>
+                           <cell>e</cell>
+                           <cell>tell</cell>
+                        </row>
+                        <row>
+                           <cell>5</cell>
+                           <cell>ea</cell>
+                           <cell>teal</cell>
+                        </row>
+                        <row>
+                           <cell>6</cell>
+                           <cell>i</cell>
+                           <cell>till</cell>
+                        </row>
+                        <row>
+                           <cell>7</cell>
+                           <cell>u</cell>
+                           <cell>dure <hi>French</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>8</cell>
+                           <cell>ui</cell>
+                           <cell>muis <hi>Lowdutch</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>9</cell>
+                           <cell>y</cell>
+                           <cell>tile</cell>
+                        </row>
+                        <row>
+                           <cell>10</cell>
+                           <cell>o</cell>
+                           <cell>tone</cell>
+                        </row>
+                        <row>
+                           <cell>11</cell>
+                           <cell>u</cell>
+                           <cell>tunne</cell>
+                        </row>
+                        <row>
+                           <cell>12</cell>
+                           <cell>u</cell>
+                           <cell>une <hi>French</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>13</cell>
+                           <cell>oo</cell>
+                           <cell>tool</cell>
+                        </row>
+                        <row>
+                           <cell>14</cell>
+                           <cell>ou</cell>
+                           <cell>tould</cell>
+                        </row>
+                     </table>
+                  </p>
+                  <p>Theſe are the <hi>Vowels,</hi> each of which are long and ſhort.
+<list>
+                        <item>Short as in the words, God, Man, Sin.</item>
+                        <item>Long as in Ball, Demand, Seen, <hi>&amp;c.</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+            </div>
+            <div type="part">
+               <pb n="5" facs="tcp:37505:3"/>
+               <!-- PDF PAGE 18 -->
+               <head>Of Dipthongs.</head>
+               <p>A <hi>Dipthong</hi> in the ordinary uſe of the Word ſignifieth a Compound of two Vowels but thoſe in ordinary ſo named, are moſt o<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> them nothing but only ſingle Vowels, as <hi>ea, oo, ou, eo, ai,</hi> in the Words <hi>teal, tool, tould, people, main,</hi> &amp;c. That theſe are but ſingle Sounds will appear, if we conſider the Sounds of the Vow<g ref="char:EOLhyphen"/>els ſingly, that make thoſe ſuppoſed Compoſi<g ref="char:EOLhyphen"/>tions, and then whether thoſe Sounds in Com<g ref="char:EOLhyphen"/>poſition will make out the true Sound required, ſo as both of them may be clearly diſcerned in theſe pretended Compounds. For inſtance, in <hi>ea</hi> in <hi>Teal.</hi>
+               </p>
+               <p>Conſider the Sound of <hi>e</hi> in the Word <hi>ſent,</hi> or in the word <hi>ſcene;</hi> and <hi>a</hi> in the Word <hi>ball,</hi> or in the Word <hi>and,</hi> or in the Word <hi>tale,</hi> and then whether <hi>e,</hi> in either of the two Sounds going before and <hi>a</hi> in either of the three Sounds following joyned to<g ref="char:EOLhyphen"/>gether, will make out the true Sound of <hi>ea</hi> in the Word <hi>teal,</hi> if not, then is it a ſingle Sound; thus, if you proceed to examine all the other, you will I doubt not find the ſame event, and I believe the true <hi>Dipthongs</hi> and <hi>Tripthongs</hi> of the <hi>Greeks</hi> were no other but a true expreſſion of the ſingle Vowels they joyned together, but in ſo ſhort a time, as both or all three were expreſs'd in the
+<pb n="6" facs="tcp:37505:4"/>
+                  <!-- PDF PAGE 19 -->
+time that in ordinary one ſingle Vowel was ex<g ref="char:EOLhyphen"/>preſs'd.</p>
+            </div>
+            <div type="part">
+               <head>Of Conſonants.</head>
+               <p>THe whole number of <hi>Conſonants</hi> are theſe undermentioned, as nigh as I could Col<g ref="char:EOLhyphen"/>lect, by examining all the Languages I am ac<g ref="char:EOLhyphen"/>quainted with or have heard expreſs'd, and I think but few, if any ſingle Conſonants have e<g ref="char:EOLhyphen"/>ſcaped my Notice, all which in this following Ta<g ref="char:EOLhyphen"/>ble I have ranged in 11 Files, and 6 Ranks.</p>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label">1</cell>
+                        <cell role="label">2.</cell>
+                        <cell role="label">3</cell>
+                        <cell role="label">4</cell>
+                        <cell role="label">5</cell>
+                     </row>
+                     <row>
+                        <cell>1 B b<gap reason="illegible" extent="3+ letters">
+                              <desc>•••…</desc>
+                           </gap>
+                        </cell>
+                        <cell>D dark</cell>
+                        <cell>J Jeſt</cell>
+                        <cell>G Game</cell>
+                        <cell>=</cell>
+                     </row>
+                     <row>
+                        <cell>2 p pond</cell>
+                        <cell>T tart</cell>
+                        <cell>Ch Cheſt</cell>
+                        <cell>K came</cell>
+                        <cell>=</cell>
+                     </row>
+                     <row>
+                        <cell>3 M mind</cell>
+                        <cell>N name</cell>
+                        <cell>gn Seigneur <hi>Fr.</hi>
+                        </cell>
+                        <cell>ng ſong</cell>
+                        <cell>=</cell>
+                     </row>
+                     <row>
+                        <cell>4 =</cell>
+                        <cell>dh this</cell>
+                        <cell>J Jean <hi>Fr.</hi>
+                        </cell>
+                        <cell>g gave <hi>l.d.</hi>
+                        </cell>
+                        <cell>V Vally</cell>
+                     </row>
+                     <row>
+                        <cell>5 =</cell>
+                        <cell>th thing</cell>
+                        <cell>ſh ſhall</cell>
+                        <cell>ch dach <hi>l.d.</hi>
+                        </cell>
+                        <cell>F Folly</cell>
+                     </row>
+                     <row>
+                        <cell>6</cell>
+                        <cell>h <gap reason="illegible" extent="3+ letters">
+                              <desc>•••…</desc>
+                           </gap>ſe <hi>fr.</hi>
+                        </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label">6</cell>
+                        <cell role="label">7</cell>
+                        <cell role="label">8</cell>
+                        <cell role="label">9</cell>
+                        <cell role="label">10</cell>
+                        <cell role="label">11</cell>
+                        <cell role="label"> </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <gap reason="illegible" extent="1+ letters">
+                              <desc>•…</desc>
+                           </gap>
+                        </cell>
+                        <cell>L land</cell>
+                        <cell>H hand</cell>
+                        <cell>Y yard</cell>
+                        <cell>R rand</cell>
+                        <cell>W <gap reason="illegible" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>and</cell>
+                        <cell rows="5">
+                           <hi>Fr. ſign. Fren.</hi>
+                           <lb/>
+Ld. <hi>Lowduch</hi>
+                           <lb/>
+W.—<hi>Welch</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <gap reason="illegible" extent="1+ letters">
+                              <desc>•…</desc>
+                           </gap>
+                        </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <gap reason="illegible" extent="1+ letters">
+                              <desc>•…</desc>
+                           </gap>
+                        </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>Z Zeal</cell>
+                        <cell>
+                           <gap reason="illegible" extent="1+ letters">
+                              <desc>•…</desc>
+                           </gap> w</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>S S<gap reason="illegible" extent="2+ letters">
+                              <desc>••…</desc>
+                           </gap>l<gap reason="illegible" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>
+                        </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                  </table>
+               </p>
+               <p>The Firſt File containeth three <hi>Conſonants,</hi> the Second ſix, the Third and Fourth ten, the Fifth and Sixth four, the ſeventh two, the re<g ref="char:EOLhyphen"/>maining four each one, in all twenty nine <hi>Con<g ref="char:EOLhyphen"/>ſonants.</hi>
+               </p>
+               <p>The Second Rank in each File contain Deri<g ref="char:EOLhyphen"/>vatives [ſo I ſhall name them] in relation to the
+<pb n="7" facs="tcp:37505:4"/>
+                  <!-- PDF PAGE 19 -->
+Firſt Rank, or their Primitives, all alike in kind, ſo alſo all the Derivatives in the Third Rank, in the Fourth and Fifth Rank, whereby their Sounds will be the better comprehended.</p>
+               <p>Thoſe places filled by two ſtrokes (=) ſignifie that Sounds may be expreſs'd by the ſame po<g ref="char:EOLhyphen"/>ſture of the Mouth with their Primitives, an<g ref="char:EOLhyphen"/>ſwering in kind to thoſe in the ſame Rank where<g ref="char:EOLhyphen"/>in they ſtand, but they would be ſo like in pro<g ref="char:EOLhyphen"/>nounciation to ſome others in the Table, that the difference would be too nice for common diſcernment, and alſo for that I have not ob<g ref="char:EOLhyphen"/>ſerved them uſed in any Language I have heard expreſs'd by a perfect Mouth, I thought it need<g ref="char:EOLhyphen"/>leſs to characterize them.</p>
+               <p>As thoſe of the Fourth and Fifth Rank in the Firſt File are like thoſe of, the Fourth and Fifth Rank in the Fifth File, thoſe of the Firſt, Second, Third Ranks in the Fith File, are like thoſe of the ſame Ranks in the Firſt File, thoſe of the Firſt, Se<g ref="char:EOLhyphen"/>cond, Third Ranks in the Sixth File, are like thoſe of the ſame Ranks in the Second File.</p>
+               <p>Some of theſe above-mentioned twenty nine <hi>ſingle Conſonants,</hi> are vulgarly ſuppoſed com<g ref="char:EOLhyphen"/>pounded, as <hi>th, ch, ſh, gn, ng,</hi> &amp;c. But if you ſhall conſider the Sound of each <hi>ſingle Con<g ref="char:EOLhyphen"/>ſonant</hi> in the Compoſition apart, and then the Conjunction of them in that order, ſo as the <hi>ſingle Sounds</hi> may be clearly diſcerned, in the Compoſition you will never make the Sounds required, and if neither by this nor by any other
+<pb n="8" facs="tcp:37505:5"/>
+                  <!-- PDF PAGE 20 -->
+Conjunction the required <hi>ſound</hi> can be made out, it muſt be a ſingle and no compound Sound.</p>
+               <p>Whereas theſe ſingle Sounds, vulgarly de<g ref="char:EOLhyphen"/>ſcribed as Compounds, ought to have ſingle Characters; and Secondly, that ſome of the ſingle Characters have in the ſame Lanuage a different Sound, as <hi>c</hi> in the Words, <hi>can, mice; g</hi> in the Words <hi>George, Game,</hi> &amp;c. and alſo a dif<g ref="char:EOLhyphen"/>ferent Sound in different Languages, as <hi>I</hi> Con<g ref="char:EOLhyphen"/>ſonant differently expreſs'd in ſeveral Langua<g ref="char:EOLhyphen"/>ges, as in <hi>English, Low Dutch, French, Spaniſh;</hi> and Thirdly, that ſome <hi>ſingle Sounds</hi> are different-characterized in the ſame Language, as the Sound of <hi>ſ</hi> in <hi>ſame,</hi> and <hi>c</hi> in <hi>mice,</hi> the ſame Sound by two different Characters; ſo alſo <hi>c</hi> in <hi>can,</hi> and <hi>k</hi> in <hi>kind</hi> the ſame, <hi>&amp;c.</hi> and the ſame alſo in different Languages, as <hi>ch</hi> in the <hi>French</hi> Word <hi>choſe,</hi> and <hi>ſh</hi> in the Word <hi>ſhall,</hi> the ſame, <hi>&amp;c.</hi> It will be impoſible in the uſe of the preſent Characters or Alphabets to add thoſe wanting, and to cor<g ref="char:EOLhyphen"/>rect and limit the Sound of others in uſe, there<g ref="char:EOLhyphen"/>by to conſtitute a perfect Alphabet becauſe peo<g ref="char:EOLhyphen"/>ple ſo long accuſtomed or habituated to ſuch corrupt and differing Expreſſions of the preſent Characters, will be always ſubject on the ſight of the old to give them thoſe Sounds they have been uſed to, and to Spell Words according to their old and corrupt cuſtom, whatſoever Rule<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſhall be ſet to the contrary, and therefore there will be a neceſſity of a whole new Set of Characters, both of <hi>Vowels</hi> and <hi>Conſonants.</hi>
+               </p>
+               <pb facs="tcp:37505:5" rendition="simple:additions"/>
+               <!-- PDF PAGE 20 -->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
